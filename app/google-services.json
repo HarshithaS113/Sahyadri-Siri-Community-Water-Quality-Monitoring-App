@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "780917232498",
+    "project_id": "waterqualitymonitoring-3f4f7",
+    "storage_bucket": "waterqualitymonitoring-3f4f7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780917232498:android:d6177de543d86f91fc83eb",
+        "android_client_info": {
+          "package_name": "com.example.communitywaterqualitymonitoring"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-oorBH0phKxdQpj4mn7rjaee-NPQm3yA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

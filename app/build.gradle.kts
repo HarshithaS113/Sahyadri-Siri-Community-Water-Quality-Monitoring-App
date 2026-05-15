@@ -36,6 +36,18 @@ android {
     buildFeatures {
         compose = true
     }
+
+    // Fix for built-in Kotlin: Manually register KSP-generated sources using the android.sourceSets DSL
+    sourceSets {
+        getByName("debug") {
+            kotlin.directories += "build/generated/ksp/debug/kotlin"
+            kotlin.directories += "build/generated/ksp/debug/java"
+        }
+        getByName("release") {
+            kotlin.directories += "build/generated/ksp/release/kotlin"
+            kotlin.directories += "build/generated/ksp/release/java"
+        }
+    }
 }
 
 kotlin {
